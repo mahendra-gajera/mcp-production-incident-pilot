@@ -1,0 +1,42 @@
+{
+  "commits": [
+    {
+      "hash": "a1b2c3d",
+      "timestamp": "2026-02-17T10:00:00Z",
+      "author": "john.doe@company.com",
+      "message": "Add new product filtering feature",
+      "files_changed": [
+        "src/api/products.py",
+        "src/database/queries.py"
+      ]
+    },
+    {
+      "hash": "e4f5g6h",
+      "timestamp": "2026-02-17T12:30:00Z",
+      "author": "jane.smith@company.com",
+      "message": "Optimize checkout process - reduce DB calls",
+      "files_changed": [
+        "src/api/checkout.py",
+        "src/database/connection.py"
+      ]
+    },
+    {
+      "hash": "i7j8k9l",
+      "timestamp": "2026-02-17T14:15:00Z",
+      "author": "bob.johnson@company.com",
+      "message": "HOTFIX: Increase default connection pool from 30 to 35",
+      "files_changed": [
+        "config/database.yaml"
+      ],
+      "deployed_at": "2026-02-17T14:25:00Z"
+    }
+  ],
+  "deployments": [
+    {
+      "version": "v2.4.1",
+      "deployed_at": "2026-02-17T14:25:00Z",
+      "commits": ["i7j8k9l"],
+      "status": "success"
+    }
+  ]
+}

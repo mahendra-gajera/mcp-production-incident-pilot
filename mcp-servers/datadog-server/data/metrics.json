@@ -1,0 +1,49 @@
+{
+  "metrics": [
+    {
+      "timestamp": "2026-02-17T14:30:00Z",
+      "cpu_usage": 25,
+      "memory_usage": 45,
+      "request_rate": 120,
+      "error_rate": 0.1,
+      "response_time_ms": 150,
+      "db_connections": 15
+    },
+    {
+      "timestamp": "2026-02-17T14:35:00Z",
+      "cpu_usage": 30,
+      "memory_usage": 48,
+      "request_rate": 150,
+      "error_rate": 0.2,
+      "response_time_ms": 180,
+      "db_connections": 20
+    },
+    {
+      "timestamp": "2026-02-17T14:40:00Z",
+      "cpu_usage": 45,
+      "memory_usage": 55,
+      "request_rate": 200,
+      "error_rate": 0.5,
+      "response_time_ms": 250,
+      "db_connections": 28
+    },
+    {
+      "timestamp": "2026-02-17T14:45:00Z",
+      "cpu_usage": 78,
+      "memory_usage": 72,
+      "request_rate": 280,
+      "error_rate": 15.5,
+      "response_time_ms": 4500,
+      "db_connections": 40
+    },
+    {
+      "timestamp": "2026-02-17T14:50:00Z",
+      "cpu_usage": 35,
+      "memory_usage": 50,
+      "request_rate": 160,
+      "error_rate": 0.3,
+      "response_time_ms": 200,
+      "db_connections": 22
+    }
+  ]
+}

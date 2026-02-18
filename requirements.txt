@@ -1,0 +1,4 @@
+# Ollama Cloud API + MCP version
+mcp>=1.0.0
+requests>=2.28.0
+python-dotenv>=1.0.0
