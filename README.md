@@ -509,35 +509,6 @@ pip install mcp>=1.0.0
 
 ---
 
-## 🏆 What You Built
-
-✅ **3 Custom MCP Servers** (Python)
-- `logs-server`: Read and search application logs
-- `git-server`: Query commits and deployment history
-- `datadog-server`: Get metrics and detect anomalies
-- Each server is independent and domain-specific
-
-✅ **1 MCP Client** (Python)
-- Multi-server connection handling
-- Tool routing and session management
-- Integration with Ollama AI via API
-
-✅ **Real Production-Like System**
-- Not just a demo or proof-of-concept
-- Ready to connect to real APIs
-- Proper architecture for scaling
-
----
-
-## 🔐 Security
-
-- API keys are stored in `.env` file (never commit to git)
-- `.gitignore` prevents accidental commits
-- Never share API keys in chat, email, or commits
-- If key is exposed, regenerate immediately at https://ollama.com/
-
----
-
 ## 📝 License
 
 MIT License - Feel free to use and modify
@@ -546,7 +517,6 @@ MIT License - Feel free to use and modify
 
 ## 🎉 Summary
 
-This project demonstrates a **real-world application of Model Context Protocol (MCP)**:
 
 - **Multi-Server Architecture**: 3 specialized servers, not 1 generic server
 - **Autonomous AI**: Ollama decides which tools to call and when
