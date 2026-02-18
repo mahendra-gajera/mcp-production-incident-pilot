@@ -523,5 +523,3 @@ MIT License - Feel free to use and modify
 - **Data Correlation**: Automatically connects logs, metrics, and git history
 - **Root Cause Analysis**: Identifies incidents and provides recommendations
 - **Production-Ready**: Modular design, easy to extend, ready for real APIs
-
-**This is how MCP should be used in production systems!**
