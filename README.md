@@ -1,6 +1,6 @@
 # MCP Production Incident Root Cause Analyzer
 
-An AI-powered incident analysis tool that uses **Model Context Protocol (MCP)** to automatically investigate production incidents by correlating logs, metrics, and git history.
+An AI-powered incident analysis tool that uses **MCP** to automatically investigate production incidents by correlating logs, metrics, and git history.
 
 ---
 
